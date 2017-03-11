@@ -1,0 +1,33 @@
+C:\maven\repo\org\scala-lang\scala-library\2.10.6\scala-library-2.10.6.jar;C:\maven\repo\com\typesafe\akka\akka-actor_2.10\2.3.14\akka-actor_2.10-2.3.14.jar;C:\maven\repo\com\typesafe\config\1.2.1\config-1.2.1.jar;C:\maven\repo\com\typesafe\akka\akka-remote_2.10\2.3.14\akka-remote_2.10-2.3.14.jar;C:\maven\repo\io\netty\netty\3.8.0.Final\netty-3.8.0.Final.jar;C:\maven\repo\com\google\protobuf\protobuf-java\2.5.0\protobuf-java-2.5.0.jar;C:\maven\repo\org\uncommons\maths\uncommons-maths\1.2.2a\uncommons-maths-1.2.2a.jar
+-------
+..\src\main\scala\wokerInfo.scala -> ..\src\main\scala\wokerInfo.scala
+..\src\main\scala\RemoteMessage.scala -> ..\src\main\scala\RemoteMessage.scala
+..\src\main\scala\Master.scala -> ..\src\main\scala\Master.scala
+..\src\main\scala\Master.scala -> ..\src\main\scala\RemoteMessage.scala
+..\src\main\scala\Master.scala -> ..\src\main\scala\wokerInfo.scala
+..\src\main\scala\Woker.scala -> ..\src\main\scala\RemoteMessage.scala
+..\src\main\scala\Woker.scala -> ..\src\main\scala\Woker.scala
+-------
+..\src\main\scala\wokerInfo.scala -> classes\wokerInfo.class
+..\src\main\scala\RemoteMessage.scala -> classes\RegisterWorker.class
+..\src\main\scala\RemoteMessage.scala -> classes\RegistedWorker.class
+..\src\main\scala\RemoteMessage.scala -> classes\CheckTimeOut$.class
+..\src\main\scala\RemoteMessage.scala -> classes\SendHartBeat$.class
+..\src\main\scala\RemoteMessage.scala -> classes\RegisterWorker$.class
+..\src\main\scala\RemoteMessage.scala -> classes\HartBeat.class
+..\src\main\scala\RemoteMessage.scala -> classes\HartBeat$.class
+..\src\main\scala\RemoteMessage.scala -> classes\RegistedWorker$.class
+..\src\main\scala\RemoteMessage.scala -> classes\RemoteMessage.class
+..\src\main\scala\RemoteMessage.scala -> classes\SendHartBeat.class
+..\src\main\scala\RemoteMessage.scala -> classes\CheckTimeOut.class
+..\src\main\scala\Master.scala -> classes\Master.class
+..\src\main\scala\Master.scala -> classes\Master$.class
+..\src\main\scala\Master.scala -> classes\Master$$anonfun$receive$1.class
+..\src\main\scala\Master.scala -> classes\Master$$anonfun$2.class
+..\src\main\scala\Master.scala -> classes\Master$$anonfun$receive$1$$anonfun$applyOrElse$1.class
+..\src\main\scala\Master.scala -> classes\Master$$anonfun$receive$1$$anonfun$applyOrElse$2.class
+..\src\main\scala\Master.scala -> classes\Master$$anonfun$receive$1$$anonfun$1.class
+..\src\main\scala\Woker.scala -> classes\Woker.class
+..\src\main\scala\Woker.scala -> classes\Woker$$anonfun$receive$1.class
+..\src\main\scala\Woker.scala -> classes\Woker$$anonfun$main$1.class
+..\src\main\scala\Woker.scala -> classes\Woker$.class
