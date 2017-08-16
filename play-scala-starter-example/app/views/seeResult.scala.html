@@ -1,0 +1,13 @@
+@(result:String)
+@if(!TaskResult.succeess){
+    <h1 align="center">
+    任务还未完成
+    </h1>
+}else{
+    <h1 align="center">
+    @result
+    </h1>
+}
+<p>
+    <a href="@routes.TaskController.task">点击这里返回首页!</a>
+</p>

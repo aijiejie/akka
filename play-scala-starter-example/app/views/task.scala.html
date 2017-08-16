@@ -1,0 +1,35 @@
+@()
+<!DOCTYPE html>
+<html>
+    <body>
+        <section align="center">
+            <h1>提交算法</h1>
+            <form action="/postForm">
+                服务器地址<input type="text" name="masterHost" value="">
+                <br>
+                服务器端口<input type="text" name="masterPort" value="">
+                <br>
+                算法数据地址<input type="text" name="dataPath" value="">
+                <br>
+                算法名称<input type="text" name="name" value="">
+                <br>
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+        <br>
+        <section align="center">
+            <h1>执行命令</h1>
+            <form action="/postCmd">
+                服务器地址<input type="text" name="masterHost" value="">
+                <br>
+                服务器端口<input type="text" name="masterPort" value="">
+                <br>
+                命令<input type="text" name="cmd" value="">
+                <br>
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+    </body>
+</html>
+
+
