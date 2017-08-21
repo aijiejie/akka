@@ -1,13 +1,34 @@
-@(result:String)
-@if(!TaskResult.succeess){
+@()
+@if(!TaskResult.succeess) {
     <h1 align="center">
-    任务还未完成
+        测试任务还未完成
     </h1>
-}else{
+} else {
     <h1 align="center">
-    @result
+        测试任务完成
     </h1>
+
+    <h2 >  测试任务结果: </h2>
+    @TaskResult.result
 }
-<p>
+
+@if(!AlsResult.success) {
+    <h1 align="center">
+        ALS任务还未完成
+    </h1>
+} else {
+    <h1 align="center">
+        ALS任务完成
+    </h1>
+
+    <h2 align="center">  ALS推荐结果地址: @AlsResult.result</h2>
+
+}
+
+<p align="center">
+    <a href="@routes.TaskController.seeResult">点击这里返回查看结果!</a>
+</p>
+
+<p align="center">
     <a href="@routes.TaskController.task">点击这里返回首页!</a>
 </p>

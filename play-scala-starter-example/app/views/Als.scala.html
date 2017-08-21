@@ -1,0 +1,31 @@
+@()
+<!DOCTYPE html>
+<html>
+    <body>
+        <section align="center">
+            <h1>ALS算法任务</h1>
+            <p>数据格式为{用户ID，商品ID，评分}</p>
+            <form action="/submitAlsTask">
+                服务器地址<input type="text" name="alsMasterHost" value="">
+                <br>
+                服务器端口<input type="text" name="alsMasterPort" value="">
+                <br>
+                算法输入数据地址<input type="text" name="alsDataPath" value="">
+                <br>
+                算法结果保存地址<input type="text" name="alsResultPath" value="">
+                <br>
+                每个用户推荐个数<input type="number" name="alsResultNumber" value="2">
+                <br>
+                算法任务名称<input type="text" name="alsName" value="ALS">
+                <br>
+                设置算法隐藏因子Rank<input type="number" name="alsRank" value="4">
+                <br>
+                设置算法迭代次数<input type="number" name="numIterations" value="2">
+                <br>
+                设置数据分隔符<input type="text" name="Delimiter" value=",">
+                <br>
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+    </body>
+</html>

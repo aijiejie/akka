@@ -5,3 +5,20 @@ clean
 package
 {file:/C:/Users/Desktop/??/serverActor/}serveractor/assembly
 assembly
+{file:/C:/Users/Desktop/??/serverActor/}serveractor/assembly
+assembly
+clean
+assembly
+clean
+package
+assembly
+{file:/C:/Users/Desktop/??/serverActor/}serveractor/assemblyJarName
+assemblyJarName
+assemblyJarName ServerActor-assembly-2.0.jar
+assemblyJarName in assembly := "ServerActor-assembly-2.0.jar"
+assemblyJarName "ServerActor-assembly-2.0.jar"
+assembly
+exit
+assembly
+exit
+assembly

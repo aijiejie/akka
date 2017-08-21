@@ -8119,7 +8119,7 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#template-resolver;0.1!template-resolver.jar
 [debug] 	[NOT REQUIRED] org.scala-lang#jline;2.10.6!jline.jar
 [debug] 	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar
-[debug] :: resolution report :: resolve 3522ms :: artifacts dl 117ms
+[debug] :: resolution report :: resolve 3065ms :: artifacts dl 80ms
 [debug] 	report for default#serveractor-build;0.1-SNAPSHOT compile produced in C:\Users\少辉\Desktop\新浪实习\serverActor\project\target\scala-2.10\sbt-0.13\resolution-cache\reports\default-serveractor-build-compile.xml
 [debug] 	report for default#serveractor-build;0.1-SNAPSHOT runtime produced in C:\Users\少辉\Desktop\新浪实习\serverActor\project\target\scala-2.10\sbt-0.13\resolution-cache\reports\default-serveractor-build-runtime.xml
 [debug] 	report for default#serveractor-build;0.1-SNAPSHOT test produced in C:\Users\少辉\Desktop\新浪实习\serverActor\project\target\scala-2.10\sbt-0.13\resolution-cache\reports\default-serveractor-build-test.xml
@@ -8133,5 +8133,5 @@
 [debug] 	report for default#serveractor-build;0.1-SNAPSHOT docs produced in C:\Users\少辉\Desktop\新浪实习\serverActor\project\target\scala-2.10\sbt-0.13\resolution-cache\reports\default-serveractor-build-docs.xml
 [debug] 	report for default#serveractor-build;0.1-SNAPSHOT pom produced in C:\Users\少辉\Desktop\新浪实习\serverActor\project\target\scala-2.10\sbt-0.13\resolution-cache\reports\default-serveractor-build-pom.xml
 [debug] 	report for default#serveractor-build;0.1-SNAPSHOT scala-tool produced in C:\Users\少辉\Desktop\新浪实习\serverActor\project\target\scala-2.10\sbt-0.13\resolution-cache\reports\default-serveractor-build-scala-tool.xml
-[debug] 	resolve done (3522ms resolve - 117ms download)
+[debug] 	resolve done (3065ms resolve - 80ms download)
 [info] Done updating.

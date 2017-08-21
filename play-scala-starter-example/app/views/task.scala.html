@@ -2,8 +2,15 @@
 <!DOCTYPE html>
 <html>
     <body>
+
+        <aside>
+            <p align="center">
+                <a href="/Als">点击这里进入ALS推荐算法页面</a>
+            </p>
+        </aside>
+
         <section align="center">
-            <h1>提交算法</h1>
+            <h1>提交测试任务</h1>
             <form action="/postForm">
                 服务器地址<input type="text" name="masterHost" value="">
                 <br>
@@ -28,6 +35,12 @@
                 <br>
                 <input type="submit" value="Submit">
             </form>
+        </section>
+
+        <section>
+            <p align="center">
+                <a href="@routes.TaskController.seeResult">点击这里查看上次计算结果!</a>
+            </p>
         </section>
     </body>
 </html>

@@ -4,10 +4,10 @@
 	<info
 		organisation="default"
 		module="serveractor$sources_2.11"
-		revision="1.0"
+		revision="2.0"
 		conf="optional"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20170816121946"/>
+		date="20170821101129"/>
 	<dependencies>
 	</dependencies>
 </ivy-report>

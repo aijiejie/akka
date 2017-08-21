@@ -15,3 +15,5 @@ GET     /task                       controllers.TaskController.task
 GET     /postForm                   controllers.TaskController.postForm
 GET     /postCmd                    controllers.TaskController.postCmd
 GET     /seeResult                  controllers.TaskController.seeResult
+GET     /Als                        controllers.TaskController.ALS
+GET     /submitAlsTask              controllers.TaskController.submitAlsTask
